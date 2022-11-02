@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle at 50% 42.8%, #ffffff 0, #ffffff 25%, #ffffff 50%, #eff6f4 75%, #e1ede9 100%);
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    background-color: royalblue;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+
+}
+.container-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    background-color: royalblue;
+    color: white;
+    border-radius: 25px;
+    margin-top: 3rem;
+    max-width: 300px;
+    max-height: 300px;
+    bottom: 15vh;
+
+}
+.nomelogin{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.container-foot{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 100vw;
+    height: 15vh;
+    background-color: royalblue;
+}
+
+footer{
+    font-family: monospace;
+    color: white;
+    position: relative;
+    bottom: -65vh;
+    width: 100vw;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-rede-social{
+    padding: 10px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.icon:hover{
+    width: 27px;
+    height: 27px;
+}
+.hidden{
+    display: none;
+}
+.button{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.troca-login{
+
+}
+
+.troca-cadastro{
+
+}
